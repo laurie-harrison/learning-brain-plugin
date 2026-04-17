@@ -18,11 +18,11 @@ One install gets you:
 claude --plugin-dir /path/to/learning-brain-mcp/plugin
 ```
 
-### From a marketplace (once published)
+### From Codeberg (one-line install)
 
 ```
-/plugin marketplace add learningbrain/plugin
-/plugin install learning-brain@learningbrain
+/plugin marketplace add https://codeberg.org/learningbrain/learning-brain-plugin.git
+/plugin install learning-brain@learning-brain
 ```
 
 Claude Code will prompt for your API key at enable time and store it securely (macOS Keychain / encrypted credentials file). No hand-editing of config files.
