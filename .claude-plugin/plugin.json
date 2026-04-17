@@ -19,7 +19,9 @@
   ],
   "userConfig": {
     "api_key": {
-      "description": "Your Learning Brain API key. Get one at https://learningbrain.ai/#connect — enter the same email each time to retrieve your existing key.",
+      "type": "string",
+      "title": "Learning Brain API key",
+      "description": "Get one at https://learningbrain.ai/#connect — enter the same email each time to retrieve your existing key.",
       "sensitive": true
     }
   },
