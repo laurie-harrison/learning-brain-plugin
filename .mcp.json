@@ -1,0 +1,9 @@
+{
+  "learning-brain": {
+    "type": "http",
+    "url": "https://learningbrain.ai/mcp",
+    "headers": {
+      "Authorization": "Bearer ${LEARNING_BRAIN_API_KEY}"
+    }
+  }
+}
