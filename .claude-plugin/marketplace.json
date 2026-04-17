@@ -1,0 +1,15 @@
+{
+  "name": "learning-brain",
+  "owner": {
+    "name": "Laurie Harrison",
+    "email": "info@learningbrain.ai",
+    "url": "https://learningbrain.ai"
+  },
+  "plugins": [
+    {
+      "name": "learning-brain",
+      "source": "./",
+      "description": "Evidence-grounded learning design — 32 research-backed tools plus workflow discipline for courses, modules, objectives, MCQs, audits, and live sessions."
+    }
+  ]
+}
