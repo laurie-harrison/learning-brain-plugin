@@ -1,7 +1,7 @@
 {
   "name": "learning-brain",
   "description": "Evidence-grounded learning design — 32 research-backed tools plus workflow discipline for designing courses, modules, objectives, MCQs, assessments, audits, and live sessions. Pairs the Learning Brain MCP with a skill that enforces elicit-first, audit-always orchestration.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Laurie Harrison",
     "email": "info@learningbrain.ai",
@@ -16,25 +16,5 @@
     "education",
     "learning-science",
     "mcp"
-  ],
-  "userConfig": {
-    "api_key": {
-      "type": "string",
-      "title": "Learning Brain API key",
-      "description": "Get one at https://learningbrain.ai/#connect — enter the same email each time to retrieve your existing key.",
-      "sensitive": true
-    }
-  },
-  "mcpServers": {
-    "learning-brain": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "mcp-remote",
-        "https://learningbrain.ai/mcp",
-        "--header",
-        "Authorization: Bearer ${user_config.api_key}"
-      ]
-    }
-  }
+  ]
 }
