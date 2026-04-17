@@ -1,7 +1,7 @@
 {
   "name": "learning-brain",
   "description": "Evidence-grounded learning design — 32 research-backed tools plus workflow discipline for designing courses, modules, objectives, MCQs, assessments, audits, and live sessions. Pairs the Learning Brain MCP with a skill that enforces elicit-first, audit-always orchestration.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Laurie Harrison",
     "email": "info@learningbrain.ai",
