@@ -1,5 +1,5 @@
 ---
-name: mcp-workflow
+name: learning-brain
 description: Orchestrates the Learning Brain MCP (32 tools across 5 expert personas) for evidence-grounded instructional design. Use whenever the user wants to design, write, audit, or improve learning content — courses, modules, objectives, MCQs, question banks, worked examples, explanations, live sessions, discussions, facilitator guides — or ask evidence-backed learning-science questions (what does research say about X, is Y a myth, how do I diagnose Z). Enforces elicit-first, audit-always, and review-loop discipline that tool descriptions alone don't guarantee.
 ---
 
