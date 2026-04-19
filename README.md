@@ -18,10 +18,10 @@ One install gets you:
 claude --plugin-dir /path/to/learning-brain-mcp/plugin
 ```
 
-### From Codeberg (one-line install)
+### One-line install
 
 ```
-/plugin marketplace add https://codeberg.org/learningbrain/learning-brain-plugin.git
+/plugin marketplace add https://github.com/laurie-harrison/learning-brain-plugin.git
 /plugin install learning-brain@learning-brain
 ```
 
