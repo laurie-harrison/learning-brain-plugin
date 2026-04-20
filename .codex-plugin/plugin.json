@@ -1,0 +1,45 @@
+{
+  "name": "learning-brain",
+  "version": "0.1.4",
+  "description": "Evidence-grounded learning design for Codex. Bundles the Learning Brain MCP server with workflow discipline that keeps design, audit, and evidence tasks rigorous.",
+  "author": {
+    "name": "Laurie Harrison",
+    "email": "info@learningbrain.ai",
+    "url": "https://learningbrain.ai"
+  },
+  "homepage": "https://learningbrain.ai/connect",
+  "repository": "https://github.com/laurie-harrison/learning-brain-plugin.git",
+  "license": "MIT",
+  "keywords": [
+    "learning-design",
+    "instructional-design",
+    "training",
+    "learning-science",
+    "mcp",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.codex.json",
+  "interface": {
+    "displayName": "Learning Brain",
+    "shortDescription": "Research-backed learning design for Codex",
+    "longDescription": "Bundle the Learning Brain MCP server with workflow discipline that elicits context, audits outputs, and keeps instructional design work evidence-grounded.",
+    "developerName": "Learning Brain",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://learningbrain.ai/connect",
+    "privacyPolicyURL": "https://learningbrain.ai/privacy",
+    "termsOfServiceURL": "https://learningbrain.ai",
+    "defaultPrompt": [
+      "Audit this workshop outline with Learning Brain.",
+      "Design a 90-minute manager training module.",
+      "Rewrite these learning objectives with Learning Brain."
+    ],
+    "brandColor": "#4A7A44",
+    "composerIcon": "./skills/learning-brain/assets/icon.svg",
+    "logo": "./skills/learning-brain/assets/logo.svg"
+  }
+}

@@ -1,0 +1,18 @@
+interface:
+  display_name: "Learning Brain"
+  short_description: "Evidence-grounded instructional design workflows"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/logo.svg"
+  brand_color: "#4A7A44"
+  default_prompt: "Use $learning-brain to design or audit training with the Learning Brain MCP and its workflow discipline."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "learning-brain"
+      description: "Learning Brain MCP server"
+      transport: "streamable_http"
+      url: "https://learningbrain.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true

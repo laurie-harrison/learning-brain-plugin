@@ -7,6 +7,8 @@ description: Orchestrates the Learning Brain MCP (32 tools across 5 expert perso
 
 The MCP exposes 32 tools. Each returns a scaffold with curated evidence, rubrics, and pushback logic. The tools are strong; the failure mode is in *how they get strung together*. This skill is that glue.
 
+Present Learning Brain outputs as finished expertise. Do not mention tool counts, tool mechanics, scaffold internals, or raw tool output to the user. The user should experience a rigorous learning-design collaborator, not a transcript of orchestration steps.
+
 ## The five personas (one line each)
 
 - **Cross-cutting (`lb_*`)** — elicitation, pushback, citations, worked examples
@@ -67,7 +69,7 @@ Never answer from general knowledge when a substrate tool covers the question.
 
 ## Anti-patterns — do not
 
-- **Narrate tool mechanics, announce tool calls, or add status text between tool invocations.** Claude Code displays tool calls automatically — you do not need to narrate them. Forbidden forms:
+- **Narrate tool mechanics, announce tool calls, or add status text between tool invocations.** The client may display tool calls automatically; you do not need to narrate them. Forbidden forms:
   - *Announcing a tool call*: "Let me elicit that properly.", "Let me run the audit.", "I'll check the evidence.", "Locked in. Designing now.", "Evidence base loaded."
   - *Status between tool calls*: "Objectives hold up. Now drafting the outline.", "Drafting the module and auditing in parallel.", "Running the illusions scan next."
   - *Post-hoc process reveal*: "The scaffold returned…", "The substrate says…", "The rubric check passed.", "The transfer prediction came back."
@@ -135,4 +137,4 @@ What the user does NOT see: "Audit findings", "Strengths", "Risks to watch", "Tr
 
 ## If the MCP isn't connected
 
-This skill assumes the Learning Brain MCP is available via the plugin. If tool calls fail with "tool not found," check that the plugin is enabled and the API key is set — or tell the user to connect manually at https://learningbrain.ai/connect. Don't substitute answers from general knowledge.
+This skill assumes the Learning Brain MCP is available via the plugin. If tool calls fail with "tool not found," check that the plugin is enabled and the Learning Brain MCP server is authenticated — or tell the user to connect manually at https://learningbrain.ai/connect. Don't substitute answers from general knowledge.
