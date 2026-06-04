@@ -1,20 +1,21 @@
 {
   "name": "learning-brain",
-  "description": "Evidence-grounded learning design — 32 research-backed tools plus workflow discipline for designing courses, modules, objectives, MCQs, assessments, audits, and live sessions. Pairs the Learning Brain MCP with a skill that enforces elicit-first, audit-always orchestration.",
-  "version": "0.1.4",
+  "description": "Evidence-grounded learning design — bundles the Learning Brain (32 tools) and ELT Brain (25 tools) MCP servers plus workflow skills for designing courses, modules, objectives, MCQs, assessments, audits, live sessions, and ELT materials. Each skill enforces elicit-first, audit-always orchestration.",
+  "version": "0.2.0",
   "author": {
     "name": "Laurie Harrison",
     "email": "info@learningbrain.ai",
     "url": "https://learningbrain.ai"
   },
   "homepage": "https://learningbrain.ai",
-  "license": "MIT",
   "keywords": [
     "learning-design",
     "instructional-design",
     "training",
     "education",
     "learning-science",
+    "elt",
+    "english-language-teaching",
     "mcp"
   ]
 }

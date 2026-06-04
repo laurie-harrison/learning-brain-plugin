@@ -2,5 +2,9 @@
   "learning-brain": {
     "type": "http",
     "url": "https://learningbrain.ai/mcp"
+  },
+  "learning-brain-elt": {
+    "type": "http",
+    "url": "https://eltbrain.com/mcp"
   }
 }

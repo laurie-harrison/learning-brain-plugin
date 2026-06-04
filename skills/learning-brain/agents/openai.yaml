@@ -3,7 +3,7 @@ interface:
   short_description: "Evidence-grounded instructional design workflows"
   icon_small: "./assets/icon.svg"
   icon_large: "./assets/logo.svg"
-  brand_color: "#4A7A44"
+  brand_color: "#3730a3"
   default_prompt: "Use $learning-brain to design or audit training with the Learning Brain MCP and its workflow discipline."
 
 dependencies:
